@@ -1,0 +1,105 @@
+/* Fontes */
+@import
+  url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+/* Definir um tamanho de fonte básico de 10px nos dá cálculos rem mais fáceis: 1rem = 10px, 1.5rem = 15px etc.*/
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: white;
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 2.2rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #F2F2F2;
+  line-height: 2.2rem;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 6rem;  
+}
+
+header p {
+  font-size: 2.2rem;
+}
+
+#img-div {
+  margin: 3rem;
+}
+
+img {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  font-size: 1.5rem;
+}
+
+#tribute-info {
+  background-color: #F2F2F2;
+}
+
+#tribute-info h2 {
+  padding: 2rem 0 0 0;
+}
+
+article {
+  margin: auto;
+  max-width: 65rem;
+  text-align: justify;
+}
+
+li {
+  margin-right: 1.5rem;
+  padding: 2rem 0;
+}
+
+blockquote {
+  background-color: #DDDDDD;
+  padding: 1.5rem;
+  text-align: right;
+}
+
+blockquote p {
+  font-style: italic;
+  text-align: justify;
+}
+
+#cite {
+  font-style: normal;
+}
+
+footer {
+  padding: 0.1rem;  
+}
+
+footer p {
+  margin: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #A0A0A0;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+/* O título muda de tamanho quando o tamanho da tela diminuir para 430px */
+@media (max-width: 430px) {
+  h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
